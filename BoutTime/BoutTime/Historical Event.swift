@@ -8,12 +8,6 @@
 
 import Foundation
 
-var HistoricalEvent: [String: String] = [
-    "Fire" : "1 million years ago",
-    "Boat" : "8000 B.C.",
-    "Concrete" : "6500 B.C.",
-    "Wheel" : "3500 B.C."
-]
 
 class Event{
     
@@ -26,3 +20,17 @@ class Event{
     }
 }
 
+
+
+var HistoricalEvent = [
+    
+    ["Description": "Fire",
+     "time": "1 million years ago"],
+    ["Description":"Boat",
+     "time" : "8000 B.C."],
+    ["Description":"Concrete",
+     "time":"6500 B.C."],
+    ["Description":"Wheel",
+     "time":"3500 B.C."]
+    
+]
