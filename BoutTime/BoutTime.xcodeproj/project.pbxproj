@@ -14,6 +14,7 @@
 		42CFC4D31F2C935C0045ABB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CFC4D11F2C935C0045ABB8 /* LaunchScreen.storyboard */; };
 		42CFC4DE1F2C935C0045ABB8 /* BoutTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4DD1F2C935C0045ABB8 /* BoutTimeTests.swift */; };
 		42CFC4E91F2C935C0045ABB8 /* BoutTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4E81F2C935C0045ABB8 /* BoutTimeUITests.swift */; };
+		42CFC4F71F2ECE910045ABB8 /* Historical Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4F61F2ECE910045ABB8 /* Historical Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		42CFC4E41F2C935C0045ABB8 /* BoutTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoutTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CFC4E81F2C935C0045ABB8 /* BoutTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutTimeUITests.swift; sourceTree = "<group>"; };
 		42CFC4EA1F2C935C0045ABB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CFC4F61F2ECE910045ABB8 /* Historical Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Historical Event.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				42CFC4C81F2C935C0045ABB8 /* AppDelegate.swift */,
 				42CFC4CA1F2C935C0045ABB8 /* ViewController.swift */,
+				42CFC4F61F2ECE910045ABB8 /* Historical Event.swift */,
 				42CFC4CC1F2C935C0045ABB8 /* Main.storyboard */,
 				42CFC4CF1F2C935C0045ABB8 /* Assets.xcassets */,
 				42CFC4D11F2C935C0045ABB8 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CFC4CB1F2C935C0045ABB8 /* ViewController.swift in Sources */,
+				42CFC4F71F2ECE910045ABB8 /* Historical Event.swift in Sources */,
 				42CFC4C91F2C935C0045ABB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				42CFC4EF1F2C935C0045ABB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42CFC4F01F2C935C0045ABB8 /* Build configuration list for PBXNativeTarget "BoutTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				42CFC4F21F2C935C0045ABB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42CFC4F31F2C935C0045ABB8 /* Build configuration list for PBXNativeTarget "BoutTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				42CFC4F51F2C935C0045ABB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
