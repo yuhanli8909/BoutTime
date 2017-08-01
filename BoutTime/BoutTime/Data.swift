@@ -21,6 +21,18 @@ var historicalEvent = [
     ["description":"Concrete",
      "time":"6500 B.C."],
     ["description":"Wheel",
-     "time":"3500 B.C."]
+     "time":"3500 B.C."],
+    ["description":"Abacus",
+     "time":"3000 B.C"],
+    ["description":"Longbow",
+     "time":"2665 B.C."],
+    ["description":"Iron Processing",
+     "time":"2000 B.C."],
+    ["description":"Toothbrush",
+     "time":"1600 B.C."],
+    ["description":"Alphabet",
+     "time":"1100 B.C."],
+    ["description":"Armor",
+     "time":"300 B.C."]
     
 ]

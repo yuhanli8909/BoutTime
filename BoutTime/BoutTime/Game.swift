@@ -26,7 +26,7 @@ enum historicalEventError: Error{
 class historicalEventGame: game {
     
     var numberOfQuestion = 4
-    var numberOfRounds = 6
+    var numberOfRounds = 1
 
     
     func selectRandomEvent() -> Event {
