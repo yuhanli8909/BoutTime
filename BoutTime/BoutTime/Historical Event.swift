@@ -22,15 +22,4 @@ class Event{
 
 
 
-var HistoricalEvent = [
-    
-    ["Description": "Fire",
-     "time": "1 million years ago"],
-    ["Description":"Boat",
-     "time" : "8000 B.C."],
-    ["Description":"Concrete",
-     "time":"6500 B.C."],
-    ["Description":"Wheel",
-     "time":"3500 B.C."]
-    
-]
+

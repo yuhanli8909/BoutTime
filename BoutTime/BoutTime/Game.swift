@@ -15,18 +15,25 @@ protocol game {
     var numberOfRounds: Int { get set }
   
     func selectRandomEvent() -> Event
-    
-    
+}
+
+enum historicalEventError: Error{
+    case inputmissing
 }
 
 
-class HistoricalEventGame: game {
+class historicalEventGame: game {
+
     var numberOfQuestion = 4
     var numberOfRounds = 6
     
     func selectRandomEvent() -> Event {
-        var randomQuestionIndex =  GKRandomSource.sharedRandom().nextInt(upperBound: 4)
+        let randomQuestionIndex =  GKRandomSource.sharedRandom().nextInt(upperBound: 4)
+        var event = historicalEvent[randomQuestionIndex]
         
+        if let event["description"] == nil , let event["time"] == nil {
+           return nil
+        }
+        return Event(eventDescription: event["description"], time: event["time"])
     }
 }
-
