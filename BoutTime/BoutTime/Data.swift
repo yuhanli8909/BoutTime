@@ -8,6 +8,10 @@
 
 import Foundation
 
+
+
+//  Dictionary that holds all the event data
+
 var historicalEvent = [
     
     ["description": "Fire",
