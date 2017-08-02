@@ -79,7 +79,20 @@ func oneSetofQuestions() -> [[String:String]] {
     return oneSetofQuestions
 }
 
+//Binding the dictionary to the Class instance of Event.
 
+func oneSetofEvent() -> [Event] {
+    
+    var oneSetofEvent = [Event]()
+    
+    for i in 0...4{
+        var event = oneSetofQuestions()[i]
+        let oneEvent = Event(eventDescription: event["description"]!, time: event["time"]!)
+        oneSetofEvent.append(oneEvent)
+    }
+    
+    return oneSetofEvent
+}
 
 
 
