@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4295A7221F32D1BE00B26AEA /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4295A7211F32D1BE00B26AEA /* View.xib */; };
 		4295A7251F32D1D800B26AEA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4295A7231F32D1D800B26AEA /* Model.xcdatamodeld */; };
 		4295A7271F33077700B26AEA /* HistoricalEvent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4295A7261F33077700B26AEA /* HistoricalEvent.plist */; };
 		42CFC4C91F2C935C0045ABB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4C81F2C935C0045ABB8 /* AppDelegate.swift */; };
 		42CFC4CB1F2C935C0045ABB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4CA1F2C935C0045ABB8 /* ViewController.swift */; };
 		42CFC4CE1F2C935C0045ABB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CFC4CC1F2C935C0045ABB8 /* Main.storyboard */; };
 		42CFC4D01F2C935C0045ABB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CFC4CF1F2C935C0045ABB8 /* Assets.xcassets */; };
-		42CFC4D31F2C935C0045ABB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CFC4D11F2C935C0045ABB8 /* LaunchScreen.storyboard */; };
 		42CFC4DE1F2C935C0045ABB8 /* BoutTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4DD1F2C935C0045ABB8 /* BoutTimeTests.swift */; };
 		42CFC4E91F2C935C0045ABB8 /* BoutTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4E81F2C935C0045ABB8 /* BoutTimeUITests.swift */; };
 		42CFC4F71F2ECE910045ABB8 /* HistoricalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CFC4F61F2ECE910045ABB8 /* HistoricalEvent.swift */; };
@@ -40,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4295A7211F32D1BE00B26AEA /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		4295A7241F32D1D800B26AEA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		4295A7261F33077700B26AEA /* HistoricalEvent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HistoricalEvent.plist; sourceTree = "<group>"; };
 		42CFC4C51F2C935C0045ABB8 /* BoutTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoutTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +45,6 @@
 		42CFC4CA1F2C935C0045ABB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42CFC4CD1F2C935C0045ABB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42CFC4CF1F2C935C0045ABB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42CFC4D21F2C935C0045ABB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CFC4D41F2C935C0045ABB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CFC4D91F2C935C0045ABB8 /* BoutTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoutTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CFC4DD1F2C935C0045ABB8 /* BoutTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutTimeTests.swift; sourceTree = "<group>"; };
@@ -110,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				42CFC4C81F2C935C0045ABB8 /* AppDelegate.swift */,
-				4295A7211F32D1BE00B26AEA /* View.xib */,
 				4295A7231F32D1D800B26AEA /* Model.xcdatamodeld */,
 				4295A7261F33077700B26AEA /* HistoricalEvent.plist */,
 				42CFC4CA1F2C935C0045ABB8 /* ViewController.swift */,
@@ -119,7 +114,6 @@
 				42CFC4F61F2ECE910045ABB8 /* HistoricalEvent.swift */,
 				42CFC4CC1F2C935C0045ABB8 /* Main.storyboard */,
 				42CFC4CF1F2C935C0045ABB8 /* Assets.xcassets */,
-				42CFC4D11F2C935C0045ABB8 /* LaunchScreen.storyboard */,
 				42CFC4D41F2C935C0045ABB8 /* Info.plist */,
 			);
 			path = BoutTime;
@@ -252,8 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4295A7271F33077700B26AEA /* HistoricalEvent.plist in Resources */,
-				4295A7221F32D1BE00B26AEA /* View.xib in Resources */,
-				42CFC4D31F2C935C0045ABB8 /* LaunchScreen.storyboard in Resources */,
 				42CFC4D01F2C935C0045ABB8 /* Assets.xcassets in Resources */,
 				42CFC4CE1F2C935C0045ABB8 /* Main.storyboard in Resources */,
 			);
@@ -327,14 +319,6 @@
 				42CFC4CD1F2C935C0045ABB8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42CFC4D11F2C935C0045ABB8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42CFC4D21F2C935C0045ABB8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = ZZ4GD33LC4;
 				INFOPLIST_FILE = BoutTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -448,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = ZZ4GD33LC4;
 				INFOPLIST_FILE = BoutTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
