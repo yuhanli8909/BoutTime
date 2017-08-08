@@ -211,6 +211,7 @@
 				TargetAttributes = {
 					42CFC4C41F2C935C0045ABB8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZZ4GD33LC4;
 						ProvisioningStyle = Automatic;
 					};
 					42CFC4D81F2C935C0045ABB8 = {
@@ -434,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ4GD33LC4;
 				INFOPLIST_FILE = BoutTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Yuhanli.BoutTime;
@@ -446,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZ4GD33LC4;
 				INFOPLIST_FILE = BoutTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Yuhanli.BoutTime;

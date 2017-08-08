@@ -9,14 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var displayQuestion: UILabel!
+    
+//  Interface Builder Outlet
     
     
-    override func viewDidLoad() {
+//  Interface Builder Action
+    
+    override func viewDidLoad()  -> Void {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+        // Do any additional setup after loading the view, typically from a nib
     }
     
     
