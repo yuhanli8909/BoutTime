@@ -10,6 +10,9 @@ import Foundation
 import GameKit
 
 
+
+//Creating game protocol, which historicalEventGame will conform to...
+
 protocol game {
     var numberOfQuestion: Int { get set }
     var numberOfRounds: Int { get set }
@@ -17,6 +20,7 @@ protocol game {
     func selectRandomEvent() -> Event
 }
 
+//Error type
 
 enum historicalEventError: Error{
     case inputmissing
@@ -48,16 +52,19 @@ class historicalEventGame: game {
     }
 }
 
-//creating an empty array to store random question index later(empty array with initialization)
+//creating an array with 4 items of non-repeating value
 
 
 func generateRandomNumber() -> [Int] {
+    //this array need work base on number of items in the plist
+    var questionIndex = [0,1,2,3,4,5,6,7,8,9,10]
     var oneRound = [Int]()
     
     for _ in 0...4 {
-        let GeneratedIndex = GKRandomSource.sharedRandom().nextInt(upperBound: 8)
-        oneRound.append(GeneratedIndex)
-        
+        let GeneratedIndex = GKRandomSource.sharedRandom().nextInt(upperBound: 10)
+        let selectedQuestion = questionIndex[GeneratedIndex]
+        oneRound.append(selectedQuestion)
+        questionIndex.remove(at: GeneratedIndex)
     }
     
     return oneRound
@@ -65,6 +72,20 @@ func generateRandomNumber() -> [Int] {
 }
 
 //Take the oneRound (array of 4),which is generated randomly each time. Go to the historicalEvent data and get each nested dictionary through the index provided by this array.
+
+class plistConverter{
+    var hisEvent: [[String:String]] = []
+    
+     if let URL = Bundle.main.path(forResource: "HistoricalEvent", ofType: plist) {
+        if let dic = NSDictionary(contentsOfFile: path) as? [String: Any]{
+            
+        }
+    }
+
+}
+
+
+
 
 
 func oneSetofQuestions() -> [[String:String]] {
