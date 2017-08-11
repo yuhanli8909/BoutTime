@@ -2,454 +2,324 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key></key>
-	<string></string>
-	<key>Invention43</key>
-	<dict>
-		<key>Airplanes</key>
-		<string></string>
-		<key>1903</key>
-		<string></string>
-	</dict>
-	<key>Invention50</key>
-	<dict>
-		<key>Antibiotics</key>
-		<string></string>
-		<key>1928</key>
-		<string></string>
-	</dict>
-	<key>Invention22</key>
-	<dict>
-		<key>Cotton Gin</key>
-		<string></string>
-		<key>1793</key>
-		<string></string>
-	</dict>
-	<key>Invention15</key>
-	<dict>
-		<key>1300</key>
-		<string></string>
-		<key>Firearms</key>
-		<string></string>
-	</dict>
-	<key>Invention58</key>
-	<dict>
-		<key>1957</key>
-		<string></string>
-		<key>Implant of Artificial Organs</key>
-		<string></string>
-	</dict>
-	<key>Invention37</key>
-	<dict>
-		<key>Incandescent Light Bulb</key>
-		<string></string>
-		<key>1879</key>
-		<string></string>
-	</dict>
-	<key>Invention44</key>
-	<dict>
-		<key>Radar</key>
-		<string></string>
-		<key>1904</key>
-		<string></string>
-	</dict>
-	<key>Invention51</key>
-	<dict>
-		<key>Richter Magnitude Scale</key>
-		<string></string>
-		<key>1935</key>
-		<string></string>
-	</dict>
-	<key>Invention1</key>
+	<key>Fire</key>
 	<dict>
 		<key>1 million years ago</key>
 		<string></string>
-		<key>Fire</key>
-		<string></string>
 	</dict>
-	<key>Invention23</key>
-	<dict>
-		<key>Vaccines</key>
-		<string></string>
-		<key>1796</key>
-		<string></string>
-	</dict>
-	<key>Invention30</key>
-	<dict>
-		<key>1852</key>
-		<string></string>
-		<key>Airships</key>
-		<string></string>
-	</dict>
-	<key>Invention16</key>
-	<dict>
-		<key>Flush Toilet</key>
-		<string></string>
-		<key>1591</key>
-		<string></string>
-	</dict>
-	<key>Invention59</key>
-	<dict>
-		<key>Laser</key>
-		<string></string>
-		<key>1958</key>
-		<string></string>
-	</dict>
-	<key>Invention2</key>
+	<key>Boat</key>
 	<dict>
 		<key>8000 B.C.</key>
 		<string></string>
-		<key>Boat</key>
-		<string></string>
 	</dict>
-	<key>Invention38</key>
-	<dict>
-		<key>Gas-powered Automobil</key>
-		<string></string>
-		<key>1900</key>
-		<string></string>
-	</dict>
-	<key>Invention45</key>
-	<dict>
-		<key>1907</key>
-		<string></string>
-		<key>Electric Washing Machine</key>
-		<string></string>
-	</dict>
-	<key>Invention52</key>
-	<dict>
-		<key>Modern Computer</key>
-		<string></string>
-		<key>1941</key>
-		<string></string>
-	</dict>
-	<key>Invention3</key>
+	<key>Concrete</key>
 	<dict>
 		<key>6500 B.C.</key>
 		<string></string>
-		<key>Concrete</key>
-		<string></string>
 	</dict>
-	<key>Invention31</key>
-	<dict>
-		<key>Mass-production Steel</key>
-		<string></string>
-		<key>1856</key>
-		<string></string>
-	</dict>
-	<key>Invention17</key>
-	<dict>
-		<key>Pendulum Clock</key>
-		<string></string>
-		<key>1656</key>
-		<string></string>
-	</dict>
-	<key>Invention24</key>
-	<dict>
-		<key>Battery</key>
-		<string></string>
-		<key>1800</key>
-		<string></string>
-	</dict>
-	<key>Invention4</key>
+	<key>Wheel</key>
 	<dict>
 		<key>3500 B.C.</key>
 		<string></string>
-		<key>Wheel</key>
-		<string></string>
 	</dict>
-	<key>Invention10</key>
+	<key>Abacus</key>
 	<dict>
-		<key>Wheelbarrow</key>
-		<string></string>
-		<key>200 B.C.</key>
-		<string></string>
-	</dict>
-	<key>Invention46</key>
-	<dict>
-		<key>First Electric Traffic Light</key>
-		<string></string>
-		<key>1912</key>
-		<string></string>
-	</dict>
-	<key>Invention39</key>
-	<dict>
-		<key>1888</key>
-		<string></string>
-		<key>Motion Picture Camera</key>
-		<string></string>
-	</dict>
-	<key>Invention53</key>
-	<dict>
-		<key>1941</key>
-		<string></string>
-		<key>Nuclear Reactor</key>
-		<string></string>
-	</dict>
-	<key>Invention60</key>
-	<dict>
-		<key>Internet</key>
-		<string></string>
-		<key>1969</key>
-		<string></string>
-	</dict>
-	<key>Invention5</key>
-	<dict>
-		<key>Abacus</key>
-		<string></string>
 		<key>3000 B.C.</key>
 		<string></string>
 	</dict>
-	<key>Invention18</key>
-	<dict>
-		<key>Reflecting Telescope</key>
-		<string></string>
-		<key>1668</key>
-		<string></string>
-	</dict>
-	<key>Invention25</key>
-	<dict>
-		<key>1811</key>
-		<string></string>
-		<key>Railroad</key>
-		<string></string>
-	</dict>
-	<key>Invention32</key>
-	<dict>
-		<key>Combustion Engine</key>
-		<string></string>
-		<key>1858</key>
-		<string></string>
-	</dict>
-	<key>Invention11</key>
-	<dict>
-		<key>105 B.C.</key>
-		<string></string>
-		<key>Paper</key>
-		<string></string>
-	</dict>
-	<key>Invention47</key>
-	<dict>
-		<key>1914</key>
-		<string></string>
-		<key>Brassiere</key>
-		<string></string>
-	</dict>
-	<key>Invention6</key>
+	<key>Longbow</key>
 	<dict>
 		<key>2665 B.C.</key>
 		<string></string>
-		<key>Longbow</key>
-		<string></string>
 	</dict>
-	<key>Invention54</key>
-	<dict>
-		<key>1943</key>
-		<string></string>
-		<key>Hemodialysis</key>
-		<string></string>
-	</dict>
-	<key>Invention61</key>
-	<dict>
-		<key>Cloning</key>
-		<string></string>
-		<key>1970</key>
-		<string></string>
-	</dict>
-	<key>Invention40</key>
-	<dict>
-		<key>1869</key>
-		<string></string>
-		<key>Radio</key>
-		<string></string>
-	</dict>
-	<key>Invention7</key>
+	<key>Iron Processing</key>
 	<dict>
 		<key>2000 B.C.</key>
 		<string></string>
-		<key>Iron Processing</key>
-		<string></string>
 	</dict>
-	<key>Invention19</key>
-	<dict>
-		<key>1698</key>
-		<string></string>
-		<key>Steam Engine</key>
-		<string></string>
-	</dict>
-	<key>Invention26</key>
-	<dict>
-		<key>Bicycle</key>
-		<string></string>
-		<key>1818</key>
-		<string></string>
-	</dict>
-	<key>Invention33</key>
-	<dict>
-		<key>Vacuum Cleaner</key>
-		<string></string>
-		<key>1860</key>
-		<string></string>
-	</dict>
-	<key>Invention12</key>
-	<dict>
-		<key>Gunpowder</key>
-		<string></string>
-		<key>808</key>
-		<string></string>
-	</dict>
-	<key>Invention8</key>
+	<key>Alphabet</key>
 	<dict>
 		<key>1100 B.C.</key>
 		<string></string>
-		<key>Alphabet</key>
-		<string></string>
 	</dict>
-	<key>Invention48</key>
-	<dict>
-		<key>Band Aid</key>
-		<string></string>
-		<key>1921</key>
-		<string></string>
-	</dict>
-	<key>Invention55</key>
-	<dict>
-		<key>1945</key>
-		<string></string>
-		<key>Microwave Oven</key>
-		<string></string>
-	</dict>
-	<key>Invention62</key>
-	<dict>
-		<key>1971</key>
-		<string></string>
-		<key>Electronic Mail</key>
-		<string></string>
-	</dict>
-	<key>Invention27</key>
-	<dict>
-		<key>1821</key>
-		<string></string>
-		<key>Electric Motor</key>
-		<string></string>
-	</dict>
-	<key>Invention9</key>
+	<key>Armor</key>
 	<dict>
 		<key>300 B.C.</key>
 		<string></string>
-		<key>Armor</key>
+	</dict>
+	<key>Wheelbarrow</key>
+	<dict>
+		<key>200 B.C.</key>
 		<string></string>
 	</dict>
-	<key>Invention34</key>
+	<key>Paper</key>
 	<dict>
-		<key>1862</key>
-		<string></string>
-		<key>Rapid Fire Firearm</key>
+		<key>105 B.C.</key>
 		<string></string>
 	</dict>
-	<key>Invention41</key>
+	<key>Gunpowder</key>
 	<dict>
-		<key>Television</key>
-		<string></string>
-		<key>1900</key>
+		<key>808</key>
 		<string></string>
 	</dict>
-	<key>Invention13</key>
+	<key>Magnetic Compass</key>
 	<dict>
-		<key>Magnetic Compass</key>
-		<string></string>
 		<key>1100</key>
 		<string></string>
 	</dict>
-	<key>Invention20</key>
+	<key>Eyeglasses</key>
 	<dict>
-		<key>1784</key>
-		<string></string>
-		<key>Bifocal lens</key>
-		<string></string>
-	</dict>
-	<key>Invention49</key>
-	<dict>
-		<key>Quartz Clock</key>
-		<string></string>
-		<key>1927</key>
-		<string></string>
-	</dict>
-	<key>Invention56</key>
-	<dict>
-		<key>Bikini</key>
-		<string></string>
-		<key>1946</key>
-		<string></string>
-	</dict>
-	<key>Invention63</key>
-	<dict>
-		<key>Genetic Fingerprinting</key>
-		<string></string>
-		<key>1984</key>
-		<string></string>
-	</dict>
-	<key>Invention28</key>
-	<dict>
-		<key>Refrigerator</key>
-		<string></string>
-		<key>1834</key>
-		<string></string>
-	</dict>
-	<key>Invention35</key>
-	<dict>
-		<key>Dynamite</key>
-		<string></string>
-		<key>1867</key>
-		<string></string>
-	</dict>
-	<key>Invention42</key>
-	<dict>
-		<key>Modern Air Conditioning</key>
-		<string></string>
-		<key>1902</key>
-		<string></string>
-	</dict>
-	<key>Invention14</key>
-	<dict>
-		<key>Eyeglasses</key>
-		<string></string>
 		<key>1286</key>
 		<string></string>
 	</dict>
-	<key>Invention21</key>
+	<key>Firearms</key>
+	<dict>
+		<key>1300</key>
+		<string></string>
+	</dict>
+	<key>Flush Toilet</key>
+	<dict>
+		<key>1591</key>
+		<string></string>
+	</dict>
+	<key>Pendulum Clock</key>
+	<dict>
+		<key>1656</key>
+		<string></string>
+	</dict>
+	<key>Reflecting Telescope</key>
+	<dict>
+		<key>1668</key>
+		<string></string>
+	</dict>
+	<key>Steam Engine</key>
+	<dict>
+		<key>1698</key>
+		<string></string>
+	</dict>
+	<key>Bifocal lens</key>
+	<dict>
+		<key>1784</key>
+		<string></string>
+	</dict>
+	<key>Sewing Machine</key>
 	<dict>
 		<key>1790</key>
 		<string></string>
-		<key>Sewing Machine</key>
-		<string></string>
 	</dict>
-	<key>Invention57</key>
+	<key>Cotton Gin</key>
 	<dict>
-		<key>1952</key>
-		<string></string>
-		<key>Automotive Airbag</key>
+		<key>1793</key>
 		<string></string>
 	</dict>
-	<key>Invention64</key>
+	<key>Vaccines</key>
 	<dict>
-		<key>World Wide Web</key>
-		<string></string>
-		<key>1989</key>
+		<key>1796</key>
 		<string></string>
 	</dict>
-	<key>Invention29</key>
+	<key>Battery</key>
+	<dict>
+		<key>1800</key>
+		<string></string>
+	</dict>
+	<key>Railroad</key>
+	<dict>
+		<key>1811</key>
+		<string></string>
+	</dict>
+	<key>Bicycle</key>
+	<dict>
+		<key>1818</key>
+		<string></string>
+	</dict>
+	<key>Electric Motor</key>
+	<dict>
+		<key>1821</key>
+		<string></string>
+	</dict>
+	<key>Refrigerator</key>
+	<dict>
+		<key>1834</key>
+		<string></string>
+	</dict>
+	<key>Vulcanization</key>
 	<dict>
 		<key>1844</key>
 		<string></string>
-		<key>Vulcanization</key>
+	</dict>
+	<key>Airships</key>
+	<dict>
+		<key>1852</key>
 		<string></string>
 	</dict>
-	<key>Invention36</key>
+	<key>Mass-production Steel</key>
 	<dict>
-		<key>Telephone</key>
+		<key>1856</key>
 		<string></string>
+	</dict>
+	<key>Combustion Engine</key>
+	<dict>
+		<key>1858</key>
+		<string></string>
+	</dict>
+	<key>Vacuum Cleaner</key>
+	<dict>
+		<key>1860</key>
+		<string></string>
+	</dict>
+	<key>Rapid Fire Firearm</key>
+	<dict>
+		<key>1862</key>
+		<string></string>
+	</dict>
+	<key>Dynamite</key>
+	<dict>
+		<key>1867</key>
+		<string></string>
+	</dict>
+	<key>Telephone</key>
+	<dict>
 		<key>1876</key>
+		<string></string>
+	</dict>
+	<key>Incandescent Light Bulb</key>
+	<dict>
+		<key>1879</key>
+		<string></string>
+	</dict>
+	<key>Television</key>
+	<dict>
+		<key>1900</key>
+		<string></string>
+	</dict>
+	<key>Gas-powered Automobil</key>
+	<dict>
+		<key>1900</key>
+		<string></string>
+	</dict>
+	<key>Motion Picture Camera</key>
+	<dict>
+		<key>1888</key>
+		<string></string>
+	</dict>
+	<key>Radio</key>
+	<dict>
+		<key>1869</key>
+		<string></string>
+	</dict>
+	<key>Modern Air Conditioning</key>
+	<dict>
+		<key>1902</key>
+		<string></string>
+	</dict>
+	<key>Airplanes</key>
+	<dict>
+		<key>1903</key>
+		<string></string>
+	</dict>
+	<key>Radar</key>
+	<dict>
+		<key>1904</key>
+		<string></string>
+	</dict>
+	<key>Electric Washing Machine</key>
+	<dict>
+		<key>1907</key>
+		<string></string>
+	</dict>
+	<key>First Electric Traffic Light</key>
+	<dict>
+		<key>1912</key>
+		<string></string>
+	</dict>
+	<key>Brassiere</key>
+	<dict>
+		<key>1914</key>
+		<string></string>
+	</dict>
+	<key>Band Aid</key>
+	<dict>
+		<key>1921</key>
+		<string></string>
+	</dict>
+	<key>Quartz Clock</key>
+	<dict>
+		<key>1927</key>
+		<string></string>
+	</dict>
+	<key>Antibiotics</key>
+	<dict>
+		<key>1928</key>
+		<string></string>
+	</dict>
+	<key>Richter Magnitude Scale</key>
+	<dict>
+		<key>1935</key>
+		<string></string>
+	</dict>
+	<key>Modern Computer</key>
+	<dict>
+		<key>1941</key>
+		<string></string>
+	</dict>
+	<key>Nuclear Reactor</key>
+	<dict>
+		<key>1941</key>
+		<string></string>
+	</dict>
+	<key>Hemodialysis</key>
+	<dict>
+		<key>1943</key>
+		<string></string>
+	</dict>
+	<key>Microwave Oven</key>
+	<dict>
+		<key>1945</key>
+		<string></string>
+	</dict>
+	<key>Bikini</key>
+	<dict>
+		<key>1946</key>
+		<string></string>
+	</dict>
+	<key>Automotive Airbag</key>
+	<dict>
+		<key>1952</key>
+		<string></string>
+	</dict>
+	<key>Implant of Artificial Organs</key>
+	<dict>
+		<key>1957</key>
+		<string></string>
+	</dict>
+	<key>Laser</key>
+	<dict>
+		<key>1958</key>
+		<string></string>
+	</dict>
+	<key>Internet</key>
+	<dict>
+		<key>1969</key>
+		<string></string>
+	</dict>
+	<key>Cloning</key>
+	<dict>
+		<key>1970</key>
+		<string></string>
+	</dict>
+	<key>Electronic Mail</key>
+	<dict>
+		<key>1971</key>
+		<string></string>
+	</dict>
+	<key>Genetic Fingerprinting</key>
+	<dict>
+		<key>1984</key>
+		<string></string>
+	</dict>
+	<key>World Wide Web</key>
+	<dict>
+		<key>1989</key>
 		<string></string>
 	</dict>
 </dict>

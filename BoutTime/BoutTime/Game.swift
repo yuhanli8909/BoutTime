@@ -71,22 +71,50 @@ func generateRandomNumber() -> [Int] {
     
 }
 
-//Take the oneRound (array of 4),which is generated randomly each time. Go to the historicalEvent data and get each nested dictionary through the index provided by this array.
+//Error State for collecting data
 
-class plistConverter{
-    var hisEvent: [[String:String]] = []
+enum DataError: Error{
+    case invalidResource
+    case conversionFailure
+    case invalidData
+}
+
+//Converts plist data to an array with nested dictionary
+
+class PlistConverter {
     
-     if let URL = Bundle.main.path(forResource: "HistoricalEvent", ofType: plist) {
-        if let dic = NSDictionary(contentsOfFile: path) as? [String: Any]{
-            
+    static func dictionary(fromFile name: String, ofType type: String) throws -> [String: String] {
+        guard let path = Bundle.main.path(forResource: name, ofType: type) else {
+            throw DataError.invalidResource
         }
+        
+        guard let dictionary = NSDictionary(contentsOfFile: path) as? [String: String] else {
+            throw DataError.conversionFailure
+        }
+        
+        return dictionary
     }
 
 }
 
+//Converts Array into the Event Class
+
+class EventDataUnarchiver {
+    static func eventData(fromDictionary dictionary: [String: String]) throws -> [Event] {
+    
+        var eventData: [Event] = []
+        
+        for (key, value) in dictionary {
+            let content = Event(eventDescription: key, time: value)
+            eventData.append(content)
+        }
+
+        return eventData
+    }
+}
 
 
-
+//Take the oneRound (array of 4),which is generated randomly each time. Go to the historicalEvent data and get each nested dictionary through the index provided by this array.
 
 func oneSetofQuestions() -> [[String:String]] {
     
